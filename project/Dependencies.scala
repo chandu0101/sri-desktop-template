@@ -6,17 +6,17 @@ import sbt._
 
 object Dependencies {
 
-  val scalaAsyncVersion = "0.9.2"
+  val scalaAsyncVersion = "0.9.6-RC2"
 
   val upickleVersion = "0.3.1"
 
-  val scalatestVersion = "3.0.0-M6"
+  val scalatestVersion = "3.0.0-M12"
 
-  val utestVersion = "0.3.0"
+  val utestVersion = "0.3.6"
 
    val sriVersion = "0.2.0"
 
-  val utestJS = libraryDependencies += "com.lihaoyi" %%% "utest" % "0.3.0" % Test
+  val utestJS = libraryDependencies += "com.lihaoyi" %%% "utest" % utestVersion % Test
 
   val scalatestJS = libraryDependencies += "org.scalatest" %%% "scalatest" % scalatestVersion % Test
 
