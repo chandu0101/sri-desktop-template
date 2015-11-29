@@ -20,7 +20,7 @@ Define all your components/business logic in this module
 
 # How to Run
 
-```scala
+```
 
 // in root(sri-desktop-template)) folder
 
@@ -42,4 +42,7 @@ ctrl/Cmd + R - to refresh
 
 ```
 
-
+Note: On Windows, if `webpack` command is not recognized then please try:
+```
+npm install electron-prebuilt webpack -g
+```
